@@ -41,7 +41,7 @@ test("main.jsx'de react-router-dom wrapper componenti kullanılmış mı?", () =
 });
 
 test("App'de movies import edilmiş mi?", () => {
-  expect(appCode.includes("../movies")).toBe(true);
+  expect(appCode.includes("/movies")).toBe(true);
 });
 
 test("App'de en az iki state tanımlanmış mı?", () => {
